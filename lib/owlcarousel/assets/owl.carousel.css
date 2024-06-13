@@ -168,3 +168,21 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+  .owl-item .text-left i {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #78CC6D;
+    border-radius: 75px;
+    background: #FFFFFF;
+    color: #78CC6D;
+    transition: .5s;
+  }
+  
+  .owl-item.text-left:hover i {
+    background: #78CC6D;
+    color: #FFFFFF;
+  }
