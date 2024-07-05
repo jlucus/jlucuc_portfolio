@@ -9406,6 +9406,7 @@ a.text-dark:hover, a.text-dark:focus {
   float: left;
   padding: 30px;
   background: #ffffff;
+  height: 100vh;
 }
 
 .wrapper .sidebar-icon {
@@ -9453,7 +9454,6 @@ a.text-dark:hover, a.text-dark:focus {
   .wrapper .sidebar {
     position: fixed;
     width: 350px;
-    height: 100%;
     margin-left: -300px;
     float: left;
     overflow: auto;
